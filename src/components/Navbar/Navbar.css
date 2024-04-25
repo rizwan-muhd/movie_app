@@ -1,0 +1,48 @@
+.nav-container{
+    width:100%;
+    background-color:rgb(186, 29, 29);
+    margin-left: 0%;
+  }
+  .navbar{
+     width:100%;
+     height:4em;
+     position:fixed;
+     position: fixed;
+     
+     
+  }
+  .navbar-colorChange{
+    background-color:rgb(66, 5, 5);
+    width: 100%;
+     height:4em;
+  }
+  .nav-logo{
+      position: fixed;
+      left: 20px;
+      width: 130px;
+      height:60px;
+      
+  }
+  .nav-avatar{
+    position: fixed;
+    height: 30px;
+    right: 2%;
+    display: flex;
+  }
+  
+  .nav-sign-in{
+      background-color: red;
+      position: fixed;
+      right:5%;
+      border: none;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      width: 100px;
+      border-radius: 5px;
+      
+  
+  }
+  
+  
+  

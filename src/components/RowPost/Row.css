@@ -1,0 +1,36 @@
+.RowPost{
+    width: 100%;
+    float: left;
+    color: white;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    cursor: pointer;
+    padding:10px;
+    max-width: 300px;
+    height: 250px;
+    border-radius:10px
+    
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.small-poster-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.smallPosters{
+    cursor: pointer;
+    max-height: 100px;
+    padding: 5px;
+    margin-top: 5px;
+}
